@@ -1,0 +1,40 @@
+.breadcrumps {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 85px;
+}
+
+.breadcrumps {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.breadcrumps__nav {
+    margin-bottom: 20px;
+}
+
+.breadcrumps__link {
+    color: #018ad2;
+    text-decoration: none;
+}
+
+.breadcrumps__link:hover {
+    color: #f36223;
+    text-decoration: none;
+}
+
+.breadcrumps__link:active {
+    color: #a93a09;
+    text-decoration: none;
+}
+
+.breadcrumps span {
+    color: #018ad2;
+}
+.margin {
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+  }

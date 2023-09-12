@@ -1,0 +1,18 @@
+label>input {
+    visibility: hidden;
+    position: absolute;
+}
+
+
+
+.btn-sku {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.margin {
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}

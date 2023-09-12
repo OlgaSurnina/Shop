@@ -1,0 +1,26 @@
+.product__name {
+    margin-top: 0px;
+}
+
+.product__img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
+
+.product__img-photo {
+    height: 387px;
+}
+
+@media screen and (max-width: 1499px) {
+    .product__img-photo {
+        height: 272px;
+    }
+}
+.margin {
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }

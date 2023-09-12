@@ -1,0 +1,33 @@
+.iframe {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .iframe-style {
+    border: 1px dashed #888888;
+  }
+  
+  .iframe__iframe-top {
+    width: 420px;
+    height: 300px;
+  }
+  
+  .iframe__iframe-bottom {
+    width: 420px;
+    height: 300px;
+  }
+  @media screen and (max-width: 1499px) {
+    .max-width {
+        max-width: 1024px;
+    }
+    .iframe__iframe-top {
+      width: 390px;
+      height: 300px;
+    }
+    
+    .iframe__iframe-bottom {
+      width: 390px;
+      height: 300px;
+    }
+  }

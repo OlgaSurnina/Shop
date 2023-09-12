@@ -1,0 +1,99 @@
+
+.logotip-text-color {
+    color: #ff5722;
+}
+
+.logotip{
+position: fixed;
+width: 100%;
+}
+
+.logotip-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    left: 0px;
+    background: #fafafa;
+    border-radius: 4px;
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.logotip__txt{
+    position: absolute;
+    top: -3px;
+    left: 35px;
+}
+.logotip__img-svg {
+    width: 28px;
+}
+
+.logotip__basket {
+    position: absolute;
+    left: 1300px;
+    top: 20px;
+}
+
+.logotip__select {
+    position: absolute;
+    left: 1230px;
+    top: 21px;
+}
+
+.logotip__select-sku {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+    min-width: 20px;
+    min-height: 20px;
+    border-radius: 50px;
+    background-color: #f36223;
+    color: #fafafa;
+    position: absolute;
+    top: -11px;
+    right: -12px;
+    padding: 3px;
+    visibility: hidden;
+}
+
+.logotip__basket-sku {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+    min-width: 20px;
+    min-height: 20px;
+    border-radius: 50px;
+    background-color: #f36223;
+    color: #fafafa;
+    position: absolute;
+    top: -8px;
+    right: -12px;
+    padding: 3px;
+    visibility: hidden;
+}
+
+.padding-bottom-5px {
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width: 1499px) {
+    .max-width {
+        max-width: 1024px;
+    }
+    .logotip {
+        width: 1024px;
+    }
+    .logotip__select {
+        position: absolute;
+        left: 850px;
+    }
+    .logotip__basket {
+        position: absolute;
+        left: 920px;
+    }
+}

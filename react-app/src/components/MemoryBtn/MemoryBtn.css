@@ -1,0 +1,35 @@
+
+.product-memory__radio-btn {
+    padding: 10px 20px 10px 20px;
+    background: transparent;
+    outline: 1px solid #888888;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+label>input+.product-memory__radio-btn {
+    background-color: transparent;
+    outline: 1px solid #888888;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+label>input:hover+.product-memory__radio-btn {
+    cursor: pointer;
+    background: #f2f2f2;
+    outline: 1px solid #888888;
+    border-radius: 4px;
+}
+
+label>input:active+.product-memory__radio-btn {
+    outline: 2px solid #A93A09;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product-memory__label-btn>.product-memory__input-btn:checked+.product-memory__radio-btn {
+    outline: 2px solid #F36223;
+    border-radius: 4px;
+    cursor: pointer;
+}

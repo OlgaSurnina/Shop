@@ -1,0 +1,58 @@
+label>input {
+    visibility: hidden;
+    position: absolute;
+}
+
+label.btn-sku__radio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    box-sizing: border-box;
+    height: 80px;
+    width: 80px;
+}
+
+label>input+img {
+    background-color: transparent;
+    border: 1px solid #888888;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+label>input:hover+img {
+    cursor: pointer;
+    background: #f2f2f2;
+    border: 1px solid #888888;
+    border-radius: 4px;
+}
+
+label>input:active+img {
+    border: 2px solid #A93A09;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+label>input:checked+img {
+    border: 2px solid #F36223;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-sku__img-radio {
+    height: 56px;
+    width: 36px;
+    padding: 10px 20px;
+}
+
+.btn-sku {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.margin {
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
